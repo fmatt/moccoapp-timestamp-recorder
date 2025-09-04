@@ -13,7 +13,7 @@
     'use strict';
 
     waitForElement('table.tst-activities').then((table) => {
-        initTable(table);
+        // initTable(table);
         initBehaviour();
         loadStoredTimeEntries();
     });
